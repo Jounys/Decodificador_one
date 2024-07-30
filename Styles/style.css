@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --fonte-principal: "Inter", sans-serif;
+    --color-primaria: #F3F5FC;
+    --color-secundaria: #0A3871;
+    --color-terciaria: #ffffff;
+    --color-quartenaria: #D8DFE8;
+    --color-quinta: #495057;
+    --color-sexta: #343A40;
+}
+
+* {
+    margin: 0;
+    font-family: var(--fonte-principal);
+}
+
+body {
+    height: 100vh;
+    background-color: var(--color-primaria);
+}
+
+.container {
+    margin: 40px;
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+    /* width: 100%; */
+}
+
+.container__input__buttons {
+    display: flex;
+    flex-direction: column;
+    width: 47.22%;
+    height: 95vh;
+    text-align: center;
+    row-gap: 77%;
+}
+
+input[type="text"] {
+    /* padding-top: 168px; */
+    align-self: flex-start;
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: var(--color-primaria);
+    align-items: center;
+    color: var(--color-secundaria);
+    font-size: 2rem;
+    outline: none;
+}
+
+
+input[type="text"]::placeholder{
+    color: var(--color-secundaria);
+    font-size: 2rem;
+}
+
+.container__buttons__buttons {
+    width:48.23%;
+    padding: 24px;
+    border-radius: 24px;
+}
+
+.paragrafo {
+    display: flex;
+    padding-left: 10px;
+    align-self: flex-start;
+}
+
+.button_01 {
+    background-color: var(--color-secundaria);
+    color: var(--color-terciaria);
+    border: none;
+}
+
+.button_02 {
+    background-color: var(--color-quartenaria);
+    color: var(--color-secundaria);
+    border: 1px solid var(--color-sexta);
+}
+
+.container__textoDescriptado {
+    background-color: var(--color-terciaria);
+    width: 27.78%;
+    /* height: 95vh; */
+    border-radius: 32px;
+    justify-content: center;
+    align-content: center;
+    padding: 32px;
+    filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, 0.103));
+}
+
+.container__textoDescriptado> img {
+    width: 100%;
+    height: auto;
+}
+
+.container__textoDescriptado__mensagens {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+    padding: 0% 4%;
+}
+
+.container__textoDescriptado__mensagens> h2 {
+    color: var(--color-sexta);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.container__textoDescriptado__mensagens> p {
+    color: var(--color-quinta);
+    font-size: 1rem;
+}
