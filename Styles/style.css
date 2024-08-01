@@ -16,56 +16,71 @@
 }
 
 body {
-    height: 100vh;
     background-color: var(--color-primaria);
 }
 
 .container {
     margin: 40px;
+    height: 100vh;
     display: flex;
-    gap: 80px;
     justify-content: space-between;
+    gap: 80px;
     /* width: 100%; */
 }
 
-.container__input__buttons {
-    display: flex;
-    flex-direction: column;
-    width: 47.22%;
-    height: 95vh;
-    text-align: center;
-    row-gap: 77%;
-}
-
-input[type="text"] {
+.inputTexArea {
     /* padding-top: 168px; */
     align-self: flex-start;
     width: 100%;
-    height: 50px;
+    height: 200px;
     border: none;
     background-color: var(--color-primaria);
     align-items: center;
     color: var(--color-secundaria);
     font-size: 2rem;
     outline: none;
+    /* word-break: break-word; */
+    overflow: hidden;
+    /* resize: none;     */
 }
 
-
-input[type="text"]::placeholder{
+textarea::placeholder{
     color: var(--color-secundaria);
     font-size: 2rem;
 }
 
-.container__buttons__buttons {
-    width:48.23%;
-    padding: 24px;
-    border-radius: 24px;
+.container__funcoes {
+    width: 47.22%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    /* padding: 30px 0px; */
+    /* margin-bottom: -10%; */
+}
+
+.container__buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .paragrafo {
     display: flex;
-    padding-left: 10px;
-    align-self: flex-start;
+    gap: 8px;
+    color: var(--color-quinta);
+}
+
+.container__buttons__buttons {
+    display: flex;
+    gap: 24px; 
+}
+
+.buttons {   
+    width:48.23%;
+    padding: 24px;
+    border-radius: 24px;
 }
 
 .button_01 {
@@ -83,10 +98,11 @@ input[type="text"]::placeholder{
 .container__textoDescriptado {
     background-color: var(--color-terciaria);
     width: 27.78%;
-    /* height: 95vh; */
     border-radius: 32px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-content: center;
+    /* align-content: center; */
     padding: 32px;
     filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, 0.103));
 }
@@ -97,8 +113,11 @@ input[type="text"]::placeholder{
 }
 
 .container__textoDescriptado__mensagens {
+    width: 80%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-self: center;
     text-align: center;
     gap: 16px;
     padding: 0% 4%;
