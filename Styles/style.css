@@ -90,9 +90,9 @@ textarea::placeholder{
 }
 
 .button_02 {
-    background-color: var(--color-quartenaria);
+    /* background-color: var(--color-quartenaria); */
     color: var(--color-secundaria);
-    border: 1px solid var(--color-sexta);
+    border: 1px solid var(--color-secundaria);
 }
 
 .container__textoDescriptado {
@@ -132,4 +132,11 @@ textarea::placeholder{
 .container__textoDescriptado__mensagens> p {
     color: var(--color-quinta);
     font-size: 1rem;
+}
+
+.button_03 {
+    width:100%;
+    color: var(--color-secundaria);
+    border: 1px solid var(--color-secundaria);
+    background-color: var(--color-terciaria);
 }
