@@ -13,13 +13,13 @@
         </aside>
         <aside class="container__funcoes">
             <div >
-                <textarea name="" id="" class="inputTexArea" placeholder="Digite seu texto" rows="10" cols="2" ></textarea>
+                <textarea id="text-area" class="inputTexArea" placeholder="Digite seu texto" rows="10" cols="2" ></textarea>
             </div>
             <div class="container__buttons">
                 <p class="paragrafo"> <img src="assets/bi_exclamation-circle-fill.svg" alt="">Apenas letras minúsculas e sem acento.</p>
                 <div class="container__buttons__buttons">
-                    <button class="buttons button_01">Criptografar</button>
-                    <button class="buttons button_02">Descriptografar</button>
+                    <button class="buttons button_01" id="criptografar">Criptografar</button>
+                    <button class="buttons button_02" id="descriptografar">Descriptografar</button>
                 </div>
             </div>
         </aside>
@@ -29,9 +29,11 @@
             <div class="container__textoDescriptado__mensagens">
                 <h2>Nenhuma mensagem encontrada</h2>
                 <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                <p id="mensagem">oi</p>
                 <button class="buttons button_03">Copiar</button>
             </div>
         </aside>
     </main>
+    <script src="Scripts/script.js"></script>
 </body>
 </html>
