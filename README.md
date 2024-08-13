@@ -21,12 +21,12 @@ Este é um aplicativo web simples que permite criptografar e descriptografar tex
 1. **Criptografar**:
    - Digite ou cole o texto que deseja criptografar no campo de entrada.
    - Clique no botão "Criptografar".
-   - O texto criptografado será exibido abaixo do botão.
+   - O texto criptografado será exibido ao lado direito da tela.
 
 2. **Descriptografar**:
    - Digite ou cole o texto criptografado no campo de entrada.
    - Clique no botão "Descriptografar".
-   - O texto original será exibido abaixo do botão.
+   - O texto original será exibido ao lado direito da tela.
 
 3. **Copiar Texto**:
    - Após criptografar ou descriptografar o texto, clique no botão "Copiar".
@@ -37,7 +37,7 @@ Este é um aplicativo web simples que permite criptografar e descriptografar tex
 
 - **HTML**: Estrutura do aplicativo.
 - **CSS**: Estilização básica do aplicativo.
-- **JavaScript**: Lógica de criptografia, descriptografia, verificação de acentuação e manipulação do DOM.
+- **JavaScript**: Lógica de criptografia, descriptografia, e manipulação do DOM.
 
 ## Contribuições
 
